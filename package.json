@@ -4,7 +4,8 @@
   "description": "Testing with 11ty before starting to migrate",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "s": "npx @11ty/eleventy --serve",
+    "b": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
