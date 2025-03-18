@@ -4,8 +4,8 @@
   "description": "Testing with 11ty before starting to migrate",
   "main": "index.js",
   "scripts": {
-    "s": "npx @11ty/eleventy --serve",
-    "b": "npx @11ty/eleventy"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
   "keywords": [],
   "author": "",
