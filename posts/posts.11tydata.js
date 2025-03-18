@@ -10,5 +10,5 @@ export default {
 		let pMonth = month.toString().padStart(2, '0');
 
 		return `/${year}/${pMonth}/${pDay}/${data.page.fileSlug}.html`;
-	},
+	}
 };
