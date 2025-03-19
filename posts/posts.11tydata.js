@@ -1,6 +1,6 @@
 export default {
 	permalink: function (data) {
-		console.log(data.page.date);
+		// console.log(data.page.date);
 
 		let day = data.page.date.getUTCDate();
 		let month = data.page.date.getUTCMonth() + 1;
